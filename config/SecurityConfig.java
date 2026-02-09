@@ -15,4 +15,5 @@ public class SecurityConfig implements WebMvcConfigurer {
                 .allowedHeaders("*")
                 .maxAge(3600);
     }
+
 }
